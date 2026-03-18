@@ -1,7 +1,7 @@
 FROM alpine:3.21
 
 RUN apk add --no-cache \
-    p7zip-full \
+    7zip \
     rclone \
     bash \
     curl \
